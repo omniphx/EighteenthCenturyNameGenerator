@@ -23,10 +23,13 @@
 // @Youtube: #bb0000;
 
 @Reddit: #ff5700;
+@StumbleUpon: #EB4924;
 
 .blog-link {
+	color: #333;
 	&:hover,
 	&:focus {
+		color: #000;
 		text-decoration: none;
 	}
 }
@@ -90,6 +93,15 @@
 	&:hover,
 	&:focus {
 		color: darken(@Reddit, 25%);
+		text-decoration: none;
+	}
+}
+
+.stumbleupon-link {
+	color: @StumbleUpon;
+	&:hover,
+	&:focus {
+		color: darken(@StumbleUpon, 25%);
 		text-decoration: none;
 	}
 }

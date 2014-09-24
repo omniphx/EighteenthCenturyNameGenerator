@@ -6,7 +6,7 @@
                 <h2>Contact me</h2>
                 <div class="center-block">
 
-                    <a href="https://mattmitchener.com" class="blog-link">
+                    <a href="http://mattmitchener.com" class="blog-link">
                         <span class="fa-stack fa-lg">
                           <i class="fa fa-circle fa-stack-2x"></i>
                           <i class="fa fa-home fa-stack-1x fa-inverse"></i>
