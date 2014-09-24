@@ -16,7 +16,7 @@ angular.module('app', [])
         $scope.url = 'http://18thCenturyNames.com';
         $scope.title = '18th Century Names';
         $scope.description = 'Generate 18th century names!';
-        $scope.hashtag = '#18thCenturyNames';
+        $scope.hashtag = '18thCenturyNames';
         $scope.summary = 'A website for generating 18th century English names';
 
     });

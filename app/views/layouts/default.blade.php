@@ -20,9 +20,11 @@
   </head>
 	<body>
 
-      @yield('container')
+    @include('layouts.scripts.analytics')
 
-      @include('layouts.footer')
+    @yield('container')
+
+    @include('layouts.footer')
 
 	</body>
 

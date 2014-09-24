@@ -51,6 +51,15 @@
                 <div class="top-scroll">
                     <a href="#top"><i class="fa fa-circle-arrow-up scroll fa-4x"></i></a>
                 </div>
+
+                <p>
+                  Sources
+                  <ul class="list-inline">
+                    <li><a href="http://www.britishbabynames.com/">BritishBabyNames.com</a></li>
+                    <li><a href="http://surnames.behindthename.com/">BehindtheName.com</a></li>
+                  </ul>
+                </p>
+
                 <hr>
                 <p>Copyright &copy; Matthew Mitchener 2014</p>
             </div>
