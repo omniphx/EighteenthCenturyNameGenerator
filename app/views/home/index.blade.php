@@ -7,30 +7,40 @@
 {{-- Content --}}
 @section('container')
 
-<div class="header">
-    <h1>18th Century Name Generator</h1>
-</div>
+<div ng-controller="generatorCtrl" class="generator vert-text">
 
-<div ng-controller="generatorCtrl" class="generator">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
 
-    <div class="generator-container vert-text">
+                    <h1>18th Century Names</h1>
+                    <hr>
 
-        <div class="generator-panel panel">
-            <h3>@{{ name }}</h3>
-        </div>
+                    <button type="submit" class="btn btn-primary btn-lg" ng-click="getName(gender)">Generate Name</button>
 
-        <div class="generator-form">
+                    <div class="generator-form">
+                        <label class="radio-inline">
+                          <input type="radio" ng-model="gender" name="inlineRadioOptions" value="Male"> Male
+                        </label>
+                        <label class="radio-inline">
+                          <input type="radio" ng-model="gender" name="inlineRadioOptions" value="Female"> Female
+                        </label>
+                    </div>
 
-            <button type="submit" class="btn btn-primary btn-lg btn-block" ng-click="getName(gender)">Generate</button>
+                    <br>
 
-            <label class="radio-inline">
-              <input type="radio" ng-model="gender" name="inlineRadioOptions" value="Male"> Male
-            </label>
-            <label class="radio-inline">
-              <input type="radio" ng-model="gender" name="inlineRadioOptions" value="Female"> Female
-            </label>
+                    <div class="panel">
+                        <h2>@{{ name }}</h2>
+                    </div>
+                    
+                    <div class="generator-share" id="darkbox">
+                        <h4>Love it?</h4>
+                        @include('layouts.social.shareicons')
+                    </div>
+                    
 
-        </div>
+                </div>
+            </div>
 
     </div>
 

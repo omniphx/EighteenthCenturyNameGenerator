@@ -20,15 +20,9 @@
   </head>
 	<body>
 
-    <div class="container-fluid">
-
       @yield('container')
 
       @include('layouts.footer')
-      
-    </div>
-
-    @include('layouts.scripts.disqus')
 
 	</body>
 
