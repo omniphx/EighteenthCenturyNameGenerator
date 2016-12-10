@@ -7,10 +7,8 @@
 <meta property="og:description" content="A website for generating 18th century English names"/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:url" content="http://18thCenturyNames.com" />
-<meta property="og:image" content="http://18thCenturyNames.com/assets/img/1.jpg" />
+<meta property="og:image" content="http://18thCenturyNames.com/assets/img/Salon_de_Madame_Geoffrin_1200x630.jpg" />
 <meta property="og:title" content="Generate 18th Century Names"/>
-
-@stop
 @stop
 
 {{-- Content --}}

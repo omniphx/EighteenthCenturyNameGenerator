@@ -20,5 +20,5 @@ class SurnameSpiderSpider(CrawlSpider):
     def parse_item(self, response):
         for sel in response.xpath('//div[@class="browsename"]'):
             item = SurnameItem()
-            item['surname'] = sel.xpath('b/a/text()').extract()[0].title();
+            item['surname'] = sel.xpath('b/a/text()').extract()[0].title()
             yield item

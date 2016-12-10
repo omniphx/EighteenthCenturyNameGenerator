@@ -33,12 +33,13 @@
     </span>
 </a>
 
-<a target="_blank" href="http://www.tumblr.com/share/link?url=@{{url}}&name=@{{title}}&description=@{{description}}" class="tumblr-link">
+<!-- Need to find a way to url encode variables. Filter could work or check out https://github.com/rubenv/angular-encode-uri -->
+<!-- <a target="_blank" href="http://www.tumblr.com/share/link?url=@{{url}}&name=@{{title}}&name=@{{title}}&description=@{{description}}" class="tumblr-link">
     <span class="fa-stack">
         <i class="fa fa-square fa-stack-2x"></i>
         <i class="fa fa-tumblr fa-stack-1x fa-inverse"></i>
     </span>
-</a>
+</a> -->
 
 <a target="_blank" href="http://www.stumbleupon.com/submit?url=@{{url}}&title=@{{title}}" class="stumbleupon-link">
     <span class="fa-stack">
